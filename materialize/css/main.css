@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* --------- Grid de imagenes ---------------*/
+/*.grid {
+  background: #fff;
+}*/
+
+/* clear fix */
+/*.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}*/
+
+/* ---- .grid-item ---- */
+
+/*.grid-sizer,
+.grid-item {
+  width: 25%;
+  margin-bottom: 0px;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+.grid-item--width2 { width: 40%; }*/
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #EEE;
+  /* center */
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 180px;
+  height: 120px;
+  float: left;
+  /*background: #D26;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;*/
+}
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+
+
+/*------------ Boton Transparente*/
+
+.btn-start {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding:14px 40px;
+  border: 1px solid #6e6d6c;
+  border-radius: 4px;
+  margin-top: 40px;
+}
