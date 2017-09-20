@@ -25,24 +25,24 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li ><a class="" href="../index.php">Nosotros</a></li>
-        <li ><a class="" href="">Novedades</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li class="selected"><a class="" href="jewelry.php">Muebles</a></li>
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="btn-login " href="vistas/login.php">Login</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="../index.php"><b>Nosotros</b></a></li>
-        <li><a class="" href="">Novedades</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li><a class="" href="jewelry.php">Muebles</a></li>
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
       </ul>
     </div>
-  </nav>
+</nav>
 
 <!-- <div class="row">
   <div class="responsive-img col s8 m8 pull-m4" style="position:fixed !important">

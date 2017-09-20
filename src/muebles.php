@@ -24,16 +24,16 @@
         <li class=""><a class="" href="../index.php">Nosotros</a></li>
         <li class="selected" ><a class="" href="joyeria.php">Joyeria</a></li>
         <li><a class="" href="muebles.php">Muebles</a></li>
-        <li><a class="" href="#">Hogar</a></li>
+        <li><a class="" href="#">Muebles</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a href="mobile.html"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="waves-effect waves-light btn">Login</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="../index.php"><b>Nosotros</b></a></li>
-        <li><a class="" href="collapsible.html">Novedades</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li><a class="" href="jewelry.php">Muebles</a></li>
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hohar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
@@ -48,14 +48,6 @@
       <h5 class="selected titulo-guion"><a>Joyeria</a></h5>    
     </div>
     <div class="grid">
-      <<?php 
-        $dir = '../img/joyas';
-        $fich = scandir($dir);
-
-        $lenght = count($fich);
-
-        for($i = 0; $i < $lenght ; $i++){
-       ?>
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
@@ -71,80 +63,7 @@
                       <h5>Sala café</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
-                      </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <<?php } ?>
-      <!--<div class="folio-item">
-          <div class="grid-item grid-item--height3">
-            <div class="folio-image">
-                <img class="responsive-img" src="../img/home/grid/2.jpg" />
-            </div>
-            <div class="overlay">
-              <div align="right" class="circle">
-                <a href="#" class="" data-lightbox="portfolio"><i class="fa fa-heart-o"></i></a>
-              </div>
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                      <h5>Sala azul</h5><br>
-                  </div>
-                  <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
-                      </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="folio-item">
-          <div class="grid-item grid-item--height3">
-            <div class="folio-image">
-                <img class="responsive-img" src="../img/home/grid/3.jpg" />
-            </div>
-            <div class="overlay">
-              <div align="right" class="circle">
-                <a href="#" class="" data-lightbox="portfolio"><i class="fa fa-heart-o"></i></a>
-              </div>
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                      <h5>Bisuteria</h5><br>
-                  </div>
-                  <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
-                      </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="folio-item">
-          <div class="grid-item grid-item--height3">
-            <div class="folio-image">
-                <img class="responsive-img" src="../img/home/grid/1.jpg" />
-            </div>
-            <div class="overlay">
-              <div align="right" class="circle">
-                <a href="#" class="" data-lightbox="portfolio"><i class="fa fa-heart-o"></i></a>
-              </div>
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                      <h5>Sala café</h5><br>
-                  </div>
-                  <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -168,7 +87,7 @@
                       <h5>Sala azul</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -192,7 +111,7 @@
                       <h5>Bisuteria</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -216,7 +135,7 @@
                       <h5>Sala café</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -240,7 +159,7 @@
                       <h5>Sala azul</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -264,7 +183,7 @@
                       <h5>Bisuteria</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -272,7 +191,79 @@
               </div>
             </div>
           </div>
-      </div>-->
+      </div>
+      <div class="folio-item">
+          <div class="grid-item grid-item--height3">
+            <div class="folio-image">
+                <img class="responsive-img" src="../img/home/grid/1.jpg" />
+            </div>
+            <div class="overlay">
+              <div align="right" class="circle">
+                <a href="#" class="" data-lightbox="portfolio"><i class="fa fa-heart-o"></i></a>
+              </div>
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                      <h5>Sala café</h5><br>
+                  </div>
+                  <div class="folio-overview">
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
+                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="folio-item">
+          <div class="grid-item grid-item--height3">
+            <div class="folio-image">
+                <img class="responsive-img" src="../img/home/grid/2.jpg" />
+            </div>
+            <div class="overlay">
+              <div align="right" class="circle">
+                <a href="#" class="" data-lightbox="portfolio"><i class="fa fa-heart-o"></i></a>
+              </div>
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                      <h5>Sala azul</h5><br>
+                  </div>
+                  <div class="folio-overview">
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
+                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="folio-item">
+          <div class="grid-item grid-item--height3">
+            <div class="folio-image">
+                <img class="responsive-img" src="../img/home/grid/3.jpg" />
+            </div>
+            <div class="overlay">
+              <div align="right" class="circle">
+                <a href="#" class="" data-lightbox="portfolio"><i class="fa fa-heart-o"></i></a>
+              </div>
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                      <h5>Bisuteria</h5><br>
+                  </div>
+                  <div class="folio-overview">
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
+                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
 
     </div>
 

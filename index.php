@@ -22,20 +22,18 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="selected"><a class="" href="sass.html">Nosotros</a></li>
-        <li ><a class="" href="badges.html">Joyeria</a></li>
+        <li ><a class="" href="src/joyeria.php">Joyeria</a></li>
+        <li><a class="" href="src/muebles.php">Muebles</a></li>
         <li><a class="" href="collapsible.html">Hogar</a></li>
-        <li><a class="" href="collapsible.html">Tu diseño</a></li>
-        <li><a class="" href="collapsible.html">Unete</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a href="mobile.html"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="waves-effect waves-light btn">Login</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="sass.html"><b>Nosotros</b></a></li>
-        <li><a class="" href="badges.html">Joyeria</a></li>
+        <li><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
         <li><a class="" href="collapsible.html">Hogar</a></li>
-        <li><a class="" href="collapsible.html">Tu diseño</a></li>
-        <li><a class="" href="collapsible.html">Unete</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
