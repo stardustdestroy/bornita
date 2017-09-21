@@ -48,7 +48,7 @@
       <h5 class="selected titulo-guion"><a>Joyeria</a></h5>    
     </div>
     <div class="grid">
-      <<?php 
+      <?php 
         $dir = '../img/joyas';
         $fich = scandir($dir);
 
@@ -59,7 +59,7 @@
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src="../img/home/grid/1.jpg" />
+                <img class="responsive-img" src=" ../img/joyas/<?= $fich[$i] ?>" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -80,7 +80,7 @@
             </div>
           </div>
       </div>
-      <<?php } ?>
+      <?php } ?>
       <!--<div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
